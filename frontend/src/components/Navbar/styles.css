@@ -1,0 +1,41 @@
+a {
+    padding: 13px;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--primary-hover-color)
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    right: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--dark-color);
+    height: 50px;
+}
+
+.logo-div {
+    margin-top: -12px;
+    margin-left: -7vw;
+    display: flex;
+    justify-content: initial;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+}
+
+
+@media(max-width: 1540px) {
+    .logo-div {
+        padding-left: 5%;
+    }
+}
