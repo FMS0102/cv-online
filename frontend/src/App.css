@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #F8F8F8;
+    --primary-hover-color: #4961DC;
+    --dark-color: #252424;
+    --black-color: #000000;
+    --light-color: #2E43AF;
+    --light-color: linear-gradient(134deg, #4961DC 0%, #2E43AF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu Mono', monospace;
+}
