@@ -6,7 +6,7 @@
     --dark-color: #252424;
     --black-color: #000000;
     --light-color: #2E43AF;
-    --light-color: linear-gradient(134deg, #4961DC 0%, #2E43AF);
+    --light-linear: linear-gradient(134deg, #4961DC 0%, #2E43AF);
 }
 
 * {

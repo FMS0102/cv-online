@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    background-color: var(--black-color);
+    color: var(--primary-color);
+    height: 100%;
+}
+
+img {
+    width: 46%;
+    margin-top: 50px;
+}
+
+.flex-body-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    margin-bottom: 100px;
+    margin-top: -50%;
+}
+
+.lateral-panel {
+    display: flex;
+    justify-content: end;
+}
+
+.body-content {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    padding-left: 15%;
+}
+
+
+.name-content {
+    font-family: 'Righteous', cursive;
+}
+
+.btn-download {
+    width: 145px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-image: var(--light-linear);
+    color: var(--primary-color);
+}
+
+.btn-download:hover {
+    transform: scale(1.05);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+
+.all-icons {
+    margin-top: 10px;
+    margin-left: -10px;
+    color: var(--primary-hover-color);
+}
+
+.all-icons:hover {
+    color: var(--primary-color);
+}
+
+
+@media(max-width: 890px) {
+
+    .flex-body-content {
+        flex-direction: column;
+    }
+
+    .info-align h2 {
+        text-align: center;
+    }
+
+    .name-content {
+        text-align: center;
+    }
+
+    .body-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
