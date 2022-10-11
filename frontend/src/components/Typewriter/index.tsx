@@ -1,0 +1,49 @@
+import { useTypewriter } from 'react-simple-typewriter'
+import './styles.css'
+
+const TypeWriter = () => {
+
+    const { text } = useTypewriter({
+        words: [
+            'Hell world ashdjahsdkj haskjdhashd kajhsdk jhaskd' +
+            'hakjshdkjahsdkjhasdjhasdkjh'
+        ],
+        loop: 2,
+        typeSpeed: 50,
+        deleteSpeed: 40
+    })
+
+    return (
+        <div className='typerwriter-content'>
+            <div className='text-details'>
+                <h2 className='intro-title'>Introdução:</h2>
+                <h2>
+                    {text}
+                </h2>
+            </div>
+
+            <div className='color-site'>
+                <div className='color' style={{ background: 'var(--light-color)' }}>
+
+                </div>
+                <div className='color' style={{ background: 'var(--light-linear)' }}>
+
+                </div>
+                <div className='color' style={{ background: 'var(--primary-hover-color)' }}>
+
+                </div>
+                <div className='color' style={{ background: 'var(--primary-color)' }}>
+
+                </div>
+                <div className='color' style={{ background: 'var(--dark-color)' }}>
+
+                </div>
+            </div>
+        </div>
+
+
+    )
+
+}
+
+export default TypeWriter

@@ -2,6 +2,7 @@ import { BsGithub, BsWhatsapp, BsLinkedin } from 'react-icons/bs'
 import { IconContext } from 'react-icons'
 import Img_panel from '../../images/lateral_panel.svg'
 import './styles.css'
+import Typewriter from '../Typewriter'
 
 
 function Home() {
@@ -49,6 +50,7 @@ function Home() {
                         </IconContext.Provider>
                     </div>
                 </div>
+                <Typewriter />
             </div>
         </>
     )

@@ -1,0 +1,57 @@
+.typerwriter-content {
+    width: 400px;
+    height: 250px;
+    background: var(--black-color);
+    border: 2px solid var(--dark-color);
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 0px var(--light-color);
+}
+
+.text-details {
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.text-details h2 {
+    font-size: 20px;
+}
+
+.intro-title {
+    margin-bottom: 15px;
+}
+
+.color-site {
+    position: absolute;
+    bottom: -40px;
+    left: -90px;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    background-color: var(--black-color);
+    border: 2px solid var(--dark-color);
+    border-radius: 5px;
+}
+
+.color {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+@media(max-width: 890px) {
+    .typerwriter-content {
+        margin-top: 50px;
+    }
+
+    .color-site {
+        bottom: -55px;
+        left: 20%;
+    }
+
+
+
+}
