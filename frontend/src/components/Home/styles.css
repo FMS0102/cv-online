@@ -68,6 +68,7 @@ img {
 
     .flex-body-content {
         flex-direction: column;
+        margin-top: -35%;
     }
 
     .info-align h2 {
