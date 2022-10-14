@@ -27,6 +27,11 @@ p {
     padding: 25px;
     width: 270px;
     min-height: 300px;
+    transition: all 0.7s ease-out;
+}
+
+.card:hover{
+    transform: translateY(-20px);
 }
 
 .card p {
