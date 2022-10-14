@@ -4,6 +4,7 @@ import AboutMe from "./components/AboutMe";
 import Card from "./components/Card";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 
 function Routes() {
     return (
@@ -12,6 +13,7 @@ function Routes() {
             <Home />
             <AboutMe />
             <Card />
+            <Projects />
         </BrowserRouter>
     )
 }
