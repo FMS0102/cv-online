@@ -15,10 +15,14 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
+div {
+    display: block;
 }
 
-body {
+html, body{
     font-family: 'Ubuntu Mono', monospace;
+}
+
+a {
+    text-decoration: none;
 }

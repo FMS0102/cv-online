@@ -19,6 +19,7 @@ nav {
     justify-content: space-around;
     background-color: var(--dark-color);
     height: 50px;
+    z-index: 1;
 }
 
 .logo-div {
