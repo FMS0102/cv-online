@@ -42,6 +42,13 @@
     position: relative;
 }
 
+@media(max-width: 450px) {
+    .typerwriter-content {
+        width: 330px;
+        min-height: 250px;
+    }
+}
+
 @media(max-width: 890px) {
     .typerwriter-content {
         margin-top: 50px;

@@ -41,6 +41,21 @@
     font-size: 17px;
 }
 
+@media(max-width: 450px) {
+
+    .about {
+        min-height: 480px;
+    }
+
+    .details {
+        margin-top: -10px;
+     }
+ 
+     .details p {
+         padding: 3px 20px;
+         font-size: 17px;
+     }
+}
 
 @media(max-width: 830px) {
     .title h1 {
@@ -52,4 +67,5 @@
         flex-direction: column;
         margin-top: -50px;
     }
+
 }
