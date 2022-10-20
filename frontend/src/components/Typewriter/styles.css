@@ -1,6 +1,6 @@
 .typerwriter-content {
-    width: 400px;
-    height: 250px;
+    width: 450px;
+    min-height: 210px;
     background: var(--black-color);
     border: 2px solid var(--dark-color);
     position: relative;

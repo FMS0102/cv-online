@@ -7,8 +7,8 @@ body {
 }
 
 img {
-    width: 46%;
-    margin-top: 50px;
+    width: 50%;
+    margin-top: 0;
 }
 
 .flex-body-content {
@@ -17,7 +17,7 @@ img {
     justify-content: space-evenly;
     height: 70vh;
     margin-bottom: 100px;
-    margin-top: -50%;
+    margin-top: -45%;
 }
 
 .lateral-panel {
@@ -37,6 +37,11 @@ img {
     font-family: 'Righteous', cursive;
 }
 
+.btn-div{
+    margin: 0;
+    padding: 0;
+}
+
 .btn-download {
     width: 145px;
     height: 45px;
@@ -44,6 +49,7 @@ img {
     margin-top: 20px;
     background-image: var(--light-linear);
     color: var(--primary-color);
+    font-size: 10px;
 }
 
 .btn-download:hover {
@@ -68,7 +74,7 @@ img {
 
     .flex-body-content {
         flex-direction: column;
-        margin-top: -35%;
+        margin-top: -30%;
     }
 
     .info-align h2 {
@@ -81,8 +87,7 @@ img {
 
     .body-content {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: end;
     }
 
     .btn-div {

@@ -5,14 +5,16 @@ const TypeWriter = () => {
 
     const { text } = useTypewriter({
         words: [
-            'Lorem Ipsum is simply dummy text of the printing' + 
-            'and typesetting industry. Lorem Ipsum has been the' + 
-            'industrys standard dummy text ever since the 1500s,' + 
-            'when an unknown printer took a galley of type and scrambled'
+            'Eu criei esse site com o objetivo de apresentar um portifólio, ' +
+            'mostrando um pouco dos projetos que desenvolvi durante os meus estudos. ',
+
+            'No desenvolvimento, foi utilizado o Typescript com o React, considerando a ' +
+            'responsividade no CSS e algumas bibliotecas como o react-icons e react-simple-typewriter.'
         ],
-        loop: 2,
-        typeSpeed: 50,
-        deleteSpeed: 40
+        loop: 0,
+        typeSpeed: 40,
+        deleteSpeed: 30,
+        delaySpeed: 4500
     })
 
     return (

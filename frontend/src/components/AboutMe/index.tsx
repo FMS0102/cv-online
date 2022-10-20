@@ -21,21 +21,17 @@ function AboutMe() {
                 </div>
                 <div className="details">
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        It has survived not only five centuries, but also the leap into electronic typesetting.
-                        remaining essentially unchanged. It was popularised in the 1960s with the release of
-                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Sou programador iniciante e comecei os meus estudos há quatro anos,
+                        atualmente eu estou cursando análise e desenvolvimento de sistemas e procuro
+                        ingressar no mercado de TI.
                     </p>
+
                     <p>
-                        remaining essentially unchanged. It was popularised in the 1960s with the release of
-                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        remaining essentially unchanged. It was popularised in the 1960s with the release of
-                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Minha jornada profissional começou em 2010, quando obtive a oportunidade de
+                        entrar em uma empresa no ramo de construção civil, como servente de campo no setor de topografia e
+                        posteriormente no suprimentos, como almoxarife. Com o tempo, surgiu uma oportunidade de
+                        trabalhar como comprador, foi quando eu ingressei nessa área e trabalhei em diversas obras pelo Brasil.
+                        Atualmente estou trabalhando nessa função, em uma empresa que atua no segmento de saneamento no ES.
                     </p>
 
                 </div>

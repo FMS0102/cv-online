@@ -3,6 +3,7 @@ import { IconContext } from 'react-icons'
 import Img_panel from '../../images/lateral_panel.svg'
 import './styles.css'
 import Typewriter from '../Typewriter'
+import { Link } from 'react-router-dom'
 
 
 function Home() {
@@ -12,7 +13,7 @@ function Home() {
             <div className="info-content">
                 <div className="body-content">
                     <div className="lateral-panel">
-                        <img src={Img_panel} alt="triangle_image" />
+                        <img src={Img_panel} alt="" />
                     </div>
                 </div>
             </div>
@@ -20,12 +21,17 @@ function Home() {
             <div className="flex-body-content">
                 <div className="itens-details">
                     <div className="info-align">
-                        <h2>Olá, meu nome é</h2>
-                        <h1 className='name-content'>FELIPE MOREIRA SIMOES</h1>
+                        <h2>Olá, eu sou</h2>
+                        <h1 className='name-content'>FELIPE MOREIRA SIMÕES</h1>
                         <h2>DESENVOLVEDOR FULLSTACK</h2>
-                        <div className="btn-div">
-                            <button className='btn-download'>Download Currículo</button>
-                        </div>
+
+                        <a className="btn-div"
+                            target="_blank"
+                            href="https://drive.google.com/file/d/1u_GSp0AC25AlDn2xH4ZrJsywi5R-UYuR/view?usp=sharing"
+                            rel="noreferrer">
+                            <button className='btn-download' >DOWNLOAD CURRÍCULO</button>
+                        </a>
+
                     </div>
                     <div className="icons">
                         <IconContext.Provider value={{ className: 'all-icons', size: '30px' }}>
@@ -38,13 +44,13 @@ function Home() {
                             <a
                                 className="link-icons"
                                 target='_blank'
-                                href='https://github.com/FMS0102' rel='noreferrer'>
+                                href='HTTPS://linkedin.com/in/felipe-m-simões-70465416b' rel='noreferrer'>
                                 <BsLinkedin />
                             </a>
                             <a
                                 className="link-icons"
                                 target='_blank'
-                                href='https://github.com/FMS0102' rel='noreferrer'>
+                                href="https://api.whatsapp.com/send?1=pt_BR&phone=5527997011639&text=Ol%C3%A1,%20fui%20redirecionado%20pelo%20link%20do%20curr%C3%ADculo%20online." rel='noreferrer'>
                                 <BsWhatsapp />
                             </a>
                         </IconContext.Provider>
