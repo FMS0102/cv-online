@@ -3,7 +3,6 @@ import { IconContext } from 'react-icons'
 import Img_panel from '../../images/lateral_panel.svg'
 import './styles.css'
 import Typewriter from '../Typewriter'
-import { Link } from 'react-router-dom'
 
 
 function Home() {
@@ -27,7 +26,7 @@ function Home() {
 
                         <a className="btn-div"
                             target="_blank"
-                            href="https://drive.google.com/file/d/1u_GSp0AC25AlDn2xH4ZrJsywi5R-UYuR/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1x0skY7uN9ue4Q0oX6M74O7uDHWDCEdwa/view?usp=sharing"
                             rel="noreferrer">
                             <button className='btn-download' >DOWNLOAD CURRÍCULO</button>
                         </a>
