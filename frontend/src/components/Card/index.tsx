@@ -99,12 +99,10 @@ function Card() {
                     </IconContext.Provider>
                     <h2>Typescript</h2>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        Me interessei por Javascript e Typescript há pouco tempo e desenvolvi alguns projetos utilizando essas linguagens.
                     </p>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.It has survived not only five centuries, but also the
-                        leap into electronic typesetting.
+                        A possibilidade de desenvolver um sistema fullstack, utilizando somente uma linguagem foi um dos principais motivos para o meu interesse.
                     </p>
                 </div>
 

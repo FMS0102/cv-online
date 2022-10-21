@@ -11,10 +11,14 @@ function Projects() {
 
                     <div className="project-info">
                         <div className="project-detail">
-                            <h2>Site de Votação de Jogos</h2>
+                            <h2>Site de votação de jogos</h2>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                Projeto desenvolvido utilizando Java no backend com Spring Boot, Typescript React e React Native.
+                                O projeto consiste em um sistema de votação de jogos, onde os usuários escolhem os jogos e plataformas para votação e a contabilização
+                                desses votos são apresentados em alguns gráficos via web.
+                            </p>
+                            <p>
+                                Esse site foi armazenado no Netlify de forma gratuita, e sua atualização pode demorar alguns minutos para carregar as informações do backend.
                             </p>
                             <div className="project-links">
                                 <a href="https://fms01.netlify.app" target="_blank" className='button' rel="noreferrer">Link do Site</a>
@@ -39,10 +43,15 @@ function Projects() {
 
                     <div className="project-info">
                         <div className="project-detail">
-                            <h2>DS Delivery</h2>
+                            <h2>Site com sistema delivery</h2>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                Projeto desenvolvido utilizando Java no backend com Spring Boot, Typescript React e React Native.
+                                O projeto consiste em um sistema delivery de solicitação de pedidos e entregas, onde os usuários selecionam os pratos desejados via web
+                                e efetuam o pedido, apontando o endereço de entrega no mapa. Cada pedido gera uma solicitação que fica pendente, aguardando
+                                ser finalizado, após entrega.
+                            </p>
+                            <p>
+                                Esse site foi armazenado no Netlify de forma gratuita, e sua atualização pode demorar alguns minutos para carregar as informações do backend.
                             </p>
                             <div className="project-links">
                                 <a href="https://dsdeliver1.netlify.app/" target="_blank" className='button' rel="noreferrer">Link do Site</a>
@@ -67,10 +76,15 @@ function Projects() {
 
                     <div className="project-info">
                         <div className="project-detail">
-                            <h2>DS Movies</h2>
+                            <h2>Site de votação de filmes</h2>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                Projeto desenvolvido utilizando Java no backend com Spring Boot e Typescript React.
+                                O projeto consiste em um sistema de votação de filmes, onde os usuários acessam o site com algumas opções de filmes para
+                                votação, exibidos de forma paginada. Cada votação é contabilizada, gerando uma média de pontuação que é medida com o preenchimento
+                                de estrelas de acordo com o valor.
+                            </p>
+                            <p>
+                                Esse site foi armazenado no Netlify de forma gratuita, e sua atualização pode demorar alguns minutos para carregar as informações do backend.
                             </p>
                             <div className="project-links">
                                 <a href="https://movies-ds.netlify.app" target="_blank" className='button' rel="noreferrer">Link do Site</a>
@@ -97,8 +111,12 @@ function Projects() {
                         <div className="project-detail">
                             <h2>Site de Vendas</h2>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                Projeto desenvolvido utilizando Java no backend com Spring Boot e Typescript React.
+                                O projeto consiste em uma apresentação em web da contabilização de vendas com data, nome do vendedor e valor total,
+                                em forma de tabela que utiliza um sistema de paginação e alguns gráficos. 
+                            </p>
+                            <p>
+                                Esse site foi armazenado no Netlify de forma gratuita, e sua atualização pode demorar alguns minutos para carregar as informações do backend.
                             </p>
                             <div className="project-links">
                                 <a href="https://dsvendas3.netlify.app" target="_blank" className='button' rel="noreferrer">Link do Site</a>

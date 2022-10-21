@@ -5,7 +5,7 @@ const TypeWriter = () => {
 
     const { text } = useTypewriter({
         words: [
-            'Eu criei esse site com o objetivo de apresentar um portifólio, ' +
+            'Eu criei esse site com o objetivo de apresentar um portfólio, ' +
             'mostrando um pouco dos projetos que desenvolvi durante os meus estudos. ',
 
             'No desenvolvimento, foi utilizado o Typescript com o React, considerando a ' +
