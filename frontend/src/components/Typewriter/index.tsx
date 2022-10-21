@@ -14,7 +14,7 @@ const TypeWriter = () => {
         loop: 0,
         typeSpeed: 40,
         deleteSpeed: 30,
-        delaySpeed: 4500
+        delaySpeed: 8500
     })
 
     return (
