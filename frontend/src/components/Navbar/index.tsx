@@ -1,10 +1,13 @@
 import { IconContext } from 'react-icons'
 import { SiSentry } from 'react-icons/si'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import './styles.css'
 
+const navItems = document.querySelector('.nav-content Link')
+console.log(navItems)
 
 function Navbar() {
+
     return (
 
         <>
@@ -16,9 +19,9 @@ function Navbar() {
                 </div>
 
                 <div className='nav-content'>
-                    <Link to="/bem-vindo">Home</Link>
-                    <Link to="/sobre-mim">Sobre mim</Link>
-                    <Link to="/projetos">Projetos</Link>
+                    <Link to="bem-vindo" spy={true} smooth={true} offset={90} duration={1000}>Home</Link>
+                    <Link to="sobre-mim" spy={true} smooth={true} offset={90} duration={1000}>Sobre mim</Link>
+                    <Link to="projetos" spy={true} smooth={true} offset={90} duration={1000}>Projetos</Link>
                 </div>
             </nav>
         </>

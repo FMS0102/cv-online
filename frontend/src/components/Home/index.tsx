@@ -9,7 +9,7 @@ function Home() {
     return (
 
         <>
-            <div className="info-content">
+            <div id='bem-vindo' className="info-content">
                 <div className="body-content">
                     <div className="lateral-panel">
                         <img src={Img_panel} alt="" />

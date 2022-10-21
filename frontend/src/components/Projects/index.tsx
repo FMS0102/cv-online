@@ -4,7 +4,7 @@ import './styles.css'
 
 function Projects() {
     return (
-        <div className="projects">
+        <div id="projetos" className="projects">
             <h1>Projetos</h1>
             <div className="project-list">
                 <div className="project-content">
@@ -113,7 +113,7 @@ function Projects() {
                             <p>
                                 Projeto desenvolvido utilizando Java no backend com Spring Boot e Typescript React.
                                 O projeto consiste em uma apresentação em web da contabilização de vendas com data, nome do vendedor e valor total,
-                                em forma de tabela que utiliza um sistema de paginação e alguns gráficos. 
+                                em forma de tabela que utiliza um sistema de paginação e alguns gráficos.
                             </p>
                             <p>
                                 Esse site foi armazenado no Netlify de forma gratuita, e sua atualização pode demorar alguns minutos para carregar as informações do backend.
