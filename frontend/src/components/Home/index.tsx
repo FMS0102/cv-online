@@ -49,7 +49,7 @@ function Home() {
                             <a
                                 className="link-icons"
                                 target='_blank'
-                                href="https://api.whatsapp.com/send?1=pt_BR&phone=5527997011639&text=Ol%C3%A1,%20fui%20redirecionado%20pelo%20link%20do%20curr%C3%ADculo%20online." rel='noreferrer'>
+                                href=" " rel='noreferrer'>
                                 <BsWhatsapp />
                             </a>
                         </IconContext.Provider>
