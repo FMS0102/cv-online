@@ -1,93 +1,92 @@
 p {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .text-title {
-    margin-top: 200px;
-    display: flex;
-    justify-content: center;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
 }
 
 .grid-card {
-    display: grid;
-    grid-template-columns: repeat(3, 0fr);
-    grid-auto-rows: 2;
-    justify-content: space-around;
-    grid-gap: 1em;
-    margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  grid-auto-rows: 2;
+  justify-content: space-around;
+  grid-gap: 1em;
+  margin-top: 50px;
 }
 
 .card {
-    background-color: var(--dark-color);
-    padding: 20px;
-    border: 1px solid var(--dark-color);
-    border-radius: 5px;
-    box-shadow: 5px 5px 8px 0px var(--light-color);
-    margin: 20px;
-    padding: 25px;
-    width: 270px;
-    min-height: 300px;
-    transition: all 0.7s ease-out;
+  background-color: var(--dark-color);
+  padding: 20px;
+  border: 1px solid var(--dark-color);
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px 0px var(--light-color);
+  margin: 20px;
+  padding: 25px;
+  width: 270px;
+  min-height: 300px;
+  transition: all 0.7s ease-out;
 }
 
-.card:hover{
-    transform: translateY(-20px);
+.card:hover {
+  transform: translateY(-20px);
 }
 
 .card p {
-    color: #a3a5ae;
-    font-size: 16px;
+  color: #a3a5ae;
+  font-size: 16px;
 }
 
 .red {
-    border-left: 3px solid #EA2E31;
-    color: #EA2E31;
+  border-left: 3px solid #ea2e31;
+  color: #ea2e31;
 }
 
-.cian {
-    border-left: 3px solid #70D3EE;
-    color: #70D3EE;
+.cyan {
+  border-left: 3px solid #70d3ee;
+  color: #70d3ee;
 }
 
 .yellow {
-    border-left: 3px solid #F19D01;
-    color: #F19D01;
+  border-left: 3px solid #f19d01;
+  color: #f19d01;
 }
 
 .orange {
-    border-left: 3px solid #EB3C03;
-    color: #EB3C03;
+  border-left: 3px solid #eb3c03;
+  color: #eb3c03;
 }
 
 .green {
-    border-left: 3px solid #67AA3C;
-    color: #67AA3C;
+  border-left: 3px solid #67aa3c;
+  color: #67aa3c;
 }
 
 .blue {
-    border-left: 3px solid #2F72BC;
-    color: #2F72BC;
+  border-left: 3px solid #2f72bc;
+  color: #2f72bc;
 }
 
-@media(max-width: 1110px) {
-    .grid-card {
-        grid-template-columns: repeat(2, 0fr);
-    }
+@media (max-width: 1110px) {
+  .grid-card {
+    grid-template-columns: repeat(2, 0fr);
+  }
 }
 
-@media(max-width: 640px) {
-    .grid-card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+@media (max-width: 640px) {
+  .grid-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .text-title h1 {
-        text-align: center;
-    }
+  .text-title h1 {
+    text-align: center;
+  }
 
-    .grid-card h2 {
-        text-align: left;
-    }
-
+  .grid-card h2 {
+    text-align: left;
+  }
 }

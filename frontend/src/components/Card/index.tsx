@@ -1,10 +1,10 @@
 import {
-    SiJava,
+    //SiJava,
     SiReact,
-    SiPython,
+    //SiPython,
     SiMicrosoftoffice,
-    SiSpring,
-    SiTypescript
+    //   SiTypescript,
+    SiSpring
 } from 'react-icons/si'
 import { IconContext } from 'react-icons'
 import './styles.css'
@@ -19,7 +19,7 @@ function Card() {
             </div>
 
             <div className="grid-card">
-                <div className="card red">
+                {/* <div className="card red">
                     <IconContext.Provider value={{ className: 'image', size: '50px', color: '#EA2E31' }}>
                         <div><SiJava /></div>
                     </IconContext.Provider>
@@ -32,24 +32,39 @@ function Card() {
                         Nos projetos desenvolvidos, aprendi um pouco dos conceitos de OOP, conexões com o banco de dados via Maven e JDBC, MVC, collections, Lambda e outros.
                         Nas plataformas JavaFX e JavaEE.
                     </p>
+                </div> */}
+
+                <div className="card green">
+                    <IconContext.Provider value={{ className: 'image', size: '50px', color: '#67AA3C' }}>
+                        <div><SiSpring /></div>
+                    </IconContext.Provider>
+                    <h2>Spring Boot</h2>
+                    <p>
+                        Conhecimento na construção de API's na arquitetura REST com operações CRUD, utilizando Java e Spring Boot.
+                    </p>
+                    <p>
+                        Meu conhecimento inclui o desenvolvimento de webservices com integração de bancos de dados SQL e NoSQL, implementação de protocolos HTTP, autenticação JWT,
+                        interpretação de modelos conceituais UML, consultas Query otimizadas, e adoção do padrão DTO, entre outras práticas.
+                    </p>
                 </div>
 
-                <div className="card cian">
+                <div className="card cyan">
                     <IconContext.Provider value={{ className: 'image', size: '50px', color: '#70D3EE' }}>
                         <div><SiReact /></div>
                     </IconContext.Provider>
                     <h2>React</h2>
                     <p>
-                        Desenvolvimento de alguns projetos utilizando o React.
-                        Venho praticando a sua utilização como ferramenta principal na criação frontend.
+                        Paixão pelo mundo do React e pelo desenvolvimento de projetos pessoais.
                     </p>
                     <p>
-                        Nesses projetos, feitos em Javascript ou Typescript, aprendi um pouco do conceito de montagem baseado em componentes,
-                        com projetos desenvolvidos no React e React Native.
+                        Tenho explorado o React em meus estudos, onde criei projetos usando JavaScript e TypeScript.
+                        Minhas experiências incluem a construção de componentes, gerenciamento de estado e navegação entre telas.
+                        Estou animado para continuar utilizando essa biblioteca e contribuir em futuros projetos!
                     </p>
                 </div>
 
-                <div className="card yellow">
+
+                {/* <div className="card yellow">
                     <IconContext.Provider value={{ className: 'image', size: '50px', color: '#F19D01' }}>
                         <div><SiPython /></div>
                     </IconContext.Provider>
@@ -62,38 +77,26 @@ function Card() {
                         como por exemplo a extração de relatórios simulando clicks com o pyautogui, coletar informações da web com o selenium ou
                         criar um formulário web com Django.
                     </p>
-                </div>
+                </div> */}
 
-                <div className="card orange">
-                    <IconContext.Provider value={{ className: 'image', size: '50px', color: '#EB3C03' }}>
+                <div className="card yellow">
+                    <IconContext.Provider value={{ className: 'image', size: '50px', color: '#F19D01' }}>
                         <div><SiMicrosoftoffice /></div>
                     </IconContext.Provider>
-                    <h2>Microsoft Office</h2>
+                    <h2>Power Platform</h2>
                     <p>
-                        Desenvolvimento de tarefas automatizadas, com as ferramentas do Power Platform e Office 365.
+                        Proficiência na utilização do Power Platform e Office 365.
+                        Experiência em criação de bots PVA, desenvolvimento no PowerApps, automação com notificações e CRUD no Power Automate, além da consolidação de dados utilizando Power Query e Dataflow.
                     </p>
                     <p>
-                        Experiência na criação de bots através do Power Virtual Agents, desenvolvimento de aplicativos no Powerapps,
-                        fluxos automatizados no Power Automate com envio de notificações e operações de CRUD,
-                        e criação de relatórios no Power BI.
-                    </p>
-                </div>
-
-                <div className="card green">
-                    <IconContext.Provider value={{ className: 'image', size: '50px', color: '#67AA3C' }}>
-                        <div><SiSpring /></div>
-                    </IconContext.Provider>
-                    <h2>Spring Boot</h2>
-                    <p>
-                        API's na arquitetura REST com operações de CRUD, utilizando Java o Spring Boot.
-                    </p>
-                    <p>
-                        Desenvolvimento de webservices com conexão de banco de dados SQL ou NoSQL, envio de protocolos HTTP, autenticação JWT,
-                        leitura de modelo conceitual UML, consultas Query, utilização do padrão DTO e outros.
+                        Domínio na criação de relatórios no Power BI utilizando essas ferramentas.
+                        Resultados consistentes na otimização de processos e produtividade.
                     </p>
                 </div>
 
-                <div className="card blue">
+
+
+                {/* <div className="card blue">
                     <IconContext.Provider value={{ className: 'image', size: '50px', color: '#2F72BC' }}>
                         <div><SiTypescript /></div>
                     </IconContext.Provider>
@@ -104,7 +107,7 @@ function Card() {
                     <p>
                         A possibilidade de desenvolver um sistema fullstack, utilizando somente uma linguagem foi um dos principais motivos para o meu interesse.
                     </p>
-                </div>
+                </div> */}
 
 
 

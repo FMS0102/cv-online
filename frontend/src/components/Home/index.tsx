@@ -22,7 +22,7 @@ function Home() {
                     <div className="info-align">
                         <h2>Olá, eu sou</h2>
                         <h1 className='name-content'>FELIPE MOREIRA SIMÕES</h1>
-                        <h2>DESENVOLVEDOR FULLSTACK</h2>
+                        <h2>DESENVOLVEDOR JAVA</h2>
 
                         <a className="btn-div"
                             target="_blank"

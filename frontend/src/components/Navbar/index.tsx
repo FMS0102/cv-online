@@ -22,6 +22,7 @@ function Navbar() {
                     <Link to="bem-vindo" spy={true} smooth={true} offset={90} duration={1000}>Home</Link>
                     <Link to="sobre-mim" spy={true} smooth={true} offset={90} duration={1000}>Sobre mim</Link>
                     <Link to="projetos" spy={true} smooth={true} offset={90} duration={1000}>Projetos</Link>
+                    <Link to="contato" spy={true} smooth={true} offset={90} duration={1000}>Contato</Link>
                 </div>
             </nav>
         </>

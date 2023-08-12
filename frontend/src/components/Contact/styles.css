@@ -1,0 +1,65 @@
+/* Contato.css */
+
+.contato-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .contato-container h2 {
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .input-group label {
+    color: var(--primary-color);
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    font-size: 16px;
+    color: var(--primary-color);
+    background-color: var(--black-color);
+  }
+  
+  .input-group textarea {
+    resize: none;
+    height: 150px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    width: 145px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-image: var(--light-linear);
+    color: var(--primary-color);
+    font-size: 20px;
+  }
+  
+  .button-container button:hover {
+    transform: scale(1.05);
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  
+  /* Resto do seu CSS */

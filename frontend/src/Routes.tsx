@@ -5,6 +5,7 @@ import Card from "./components/Card";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 
 function Routes() {
@@ -15,6 +16,7 @@ function Routes() {
             <AboutMe />
             <Card />
             <Projects />
+            <Contact />
             <Footer />
         </BrowserRouter>
     )

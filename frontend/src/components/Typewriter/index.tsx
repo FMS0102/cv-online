@@ -5,11 +5,11 @@ const TypeWriter = () => {
 
     const { text } = useTypewriter({
         words: [
-            'Eu criei esse site com o objetivo de apresentar um portfólio, ' +
-            'mostrando um pouco dos projetos que desenvolvi durante os meus estudos. ',
+            'Montei este site para exibir meu portfólio e destacar alguns ' +
+            'dos projetos que trabalhei enquanto estava estudando. ',
 
-            'No desenvolvimento, foi utilizado o Typescript com o React, considerando a ' +
-            'responsividade no CSS e algumas bibliotecas como o react-icons e react-simple-typewriter.'
+            'No processo de criação, combinei Typescript com React, ajustei a responsividade usando  ' +
+            'CSS e adicionei um toque especial com bibliotecas como react-icons e react-simple-typewriter.'
         ],
         loop: 0,
         typeSpeed: 40,
